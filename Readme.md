@@ -2,3 +2,4 @@
 
 
 https://start.spring.io/ - Генерация файла maven
+https://spring.io/guides/gs/serving-web-content/
