@@ -77,7 +77,26 @@ public class Properties {
             return "auth";
         }
 
+
     }
 
 }
+```
+5. Так же изменяем файл greeting.mustache(добавяляем кнопку)
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    Hello, {{name}}
+    <form  method="get" action="/">
+        <button type="submit">Logout</button>
+    </form>
+</div>
+</body>
+</html>
 ```
