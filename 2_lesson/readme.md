@@ -34,3 +34,20 @@ create database spring;
 ```
 create role spring login password 'spring';
 ```
+8. Находим файл pg_hba.conf
+```
+sudo find /etc -name "pg_hba.conf"
+```
+9. Открываем файл для редактирования
+```
+sudo nano /etc/postgresql/16/main/pg_hba.conf
+```
+
+10. Меняем в файле peer на md5 в строке local all all peer
+![изображение](https://github.com/sitechbr/JavaSpringBootCodologia/assets/63145839/b491d745-802c-4eeb-83e8-1f0fc6cb19a7)
+
+
+11. Подключаемся к БД. Пароль spring
+```
+psql -d spring -U spring
+```
