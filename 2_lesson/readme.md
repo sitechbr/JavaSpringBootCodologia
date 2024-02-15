@@ -26,4 +26,11 @@ sudo systemctl stop postgresql
 ```
 sudo -u postgres psql
 ```
-   
+6. Создаем базу данных
+```
+create database spring;
+```
+7. Создаем пользователя
+```
+create role spring login password 'spring';
+```
