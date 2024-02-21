@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_lesson/readme.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2_lesson/readme.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2_lesson/readme.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_lesson/readme.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -148,16 +148,16 @@
   },
   "active": "ffdbb792e6fe5e2a",
   "lastOpenFiles": [
+    "Message2/src/main/java/com/example/Message2/repos/MessageRepo.java~",
+    "2_lesson/readme.md",
+    "Message2/src/main/java/com/example/Message2/repos/MessageRepo.java",
+    "Message2/src/main/java/com/example/Message2/repos",
     "Message2/target/classes/com/example/Message2/GreetingController.class",
     "Message2/target/classes/com/example/Message2/repos/MessageRepo.class",
     "Message2/target/classes/com/example/Message2/repos",
     "Message2/target/classes/com/example/Message2/domain/Message.class",
     "Message2/target/classes/com/example/Message2/domain",
     "Message2/target/classes/com/example/Message2/Message2Application.class",
-    "Message2/target/classes/com/example/Message2",
-    "Message2/target/classes/com/example",
-    "Message2/target/classes/com",
-    "Message2/target/generated-sources/annotations",
-    "Message2/target/generated-sources"
+    "Message2/target/classes/com/example/Message2"
   ]
 }
