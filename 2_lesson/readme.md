@@ -47,7 +47,11 @@ sudo nano /etc/postgresql/16/main/pg_hba.conf
 ![изображение](https://github.com/sitechbr/JavaSpringBootCodologia/assets/63145839/b491d745-802c-4eeb-83e8-1f0fc6cb19a7)
 
 
-11. Подключаемся к БД. Пароль spring
+11. Reboot postgresql 
+```
+sudo systemctl restart postgresql
+```
+13. Подключаемся к БД. Пароль spring
 ```
 psql -d spring -U spring
 ```
